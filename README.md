@@ -51,7 +51,7 @@
 >git rm file_name;  
 >git commit -m "what you want to say"
 
-1. ## 创建合并分支  
+## 创建合并分支  
 创建并指向新的分支,-b相当与git branch new + git checkout new,
 以后的修改和提交都是在这个分支上了  
 > git checkout -b new_branch  
