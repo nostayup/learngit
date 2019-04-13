@@ -28,7 +28,7 @@
 如果远程库和本地库不一致，先让远程文件同步到本地，执行：  
 >git pull --rebase origin master
 
-把当前分支提交到远程库：  
+把当前分支提交到远程库,origin是指远程库：  
 >git push -u origin <branch_name>
 
 ## 版本退回或者前进  
@@ -51,16 +51,20 @@
 >git rm file_name;  
 >git commit -m "what you want to say"
 
-## 创建合并分支  
+1. ## 创建合并分支  
 创建并指向新的分支,-b相当与git branch new + git checkout new,
 以后的修改和提交都是在这个分支上了  
->git checkout -b new_branch  
+> git checkout -b new_branch  
+
 查看当前分支：  
 >git branch  
+
 切换回master分支：  
 >git checkout master  
+
 把某分支合并到当前所在的分支：  
 >git merge <name>  
+
 删除旧的用过的分支：  
 >git branch -d new_branch  
 
