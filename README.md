@@ -19,6 +19,10 @@
 工作区和版本库里面的区别：  
 >git diff HEAD -- file_name
 
+删除本地文件夹或者文件夹里面的文件,如果远程也需要删，只需要推送即可：
+>git rm file_folder
+>git rm file_folder/file
+
 查看当前状态：  
 >git status
 
